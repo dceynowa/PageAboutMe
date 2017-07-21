@@ -1,0 +1,194 @@
+@import 'vendors/bootstrap/_bootstrap.scss';
+@import 'vendors/font-awesome/font-awesome';
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+
+$main-font: 'Alegreya Sans', sans-serif;
+$header-font: 'Lato', sans-serif;
+$font-color: #e7e7e7;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  padding-top: 50px;
+  width: 100%;
+  background: #001122;
+  font-family: 'Century Gothic', sans-serif;;
+}
+
+/*navigation*/
+nav {
+  font-family: $main-font;
+  font-size: 150%;
+  text-transform: uppercase;
+}
+
+nav li:hover {
+  border: 1px solid white;
+  border-bottom: none;
+  background: rgba(0, 90, 160, 0.3);
+  border-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+nav img {
+  width: 55px;
+  position: absolute;
+  top: 3px;
+  left: 30px;
+  -ms-transform: rotate(-17deg);
+  -webkit-transform: rotate(-17deg);
+  transform: rotate(-17deg);
+}
+
+/*section intro*/
+div.jumbotron {
+  width: 100%;
+  background: url("../img/jumbotron.jpg") no-repeat center;
+}
+
+#intro h1, #intro h2 {
+  color: $font-color;
+  font-family: $header-font;
+}
+
+/*section about*/
+#about {
+  padding-top: 50px;
+  color: $font-color;
+  margin: 15px auto 55px;
+}
+#me {
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  background: url("../img/me_small.jpg") no-repeat center;
+  background-size: 100% 100%;
+}
+#description {
+  margin-left: 20px;
+}
+/*section skills*/
+#skills {
+  padding-top: 50px;
+  text-align: center;
+  margin: 15px auto 55px;
+
+}
+
+#skills h2 {
+  text-align: left;
+  color: $font-color;
+}
+
+/*section projects*/
+#projects {
+  padding-top: 50px;
+}
+#projects h2 {
+  text-align: left !important;
+  color: $font-color;
+}
+
+#projects .work_logo {
+  margin: 0 auto;
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  border: 2px solid $font-color;
+}
+
+#projects a:hover {
+  text-decoration: none !important;
+}
+
+#projects h3.project_name {
+  color: $font-color;
+}
+
+#angularrank {
+  background: #FFF url("../img/projects/angularrank.jpg") no-repeat center;
+}
+
+#psd {
+  background: #FFF url("../img/projects/psd.png") no-repeat center;
+  background-size: 100%;
+}
+
+#project3 {
+  background: #FFF url("../img/projects/work1.png") no-repeat center;
+}
+
+#project4 {
+  background: #FFF url("../img/projects/work2.png") no-repeat center;
+}
+
+/*section contact*/
+#contact {
+  padding-top: 50px;
+  color: $font-color;
+  margin: 0 auto;
+}
+
+#contact h2 {
+  text-align: left;
+}
+
+#contact li {
+  margin: 15px auto;
+  list-style-type: none;
+}
+
+#contact i {
+  margin-right: 15px;
+  color: $font-color;
+}
+
+
+#contact li.social {
+  display: inline-block;
+}
+
+#contact .social i:hover {
+  color: $font-color
+}
+
+#name, #email, #message {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 3%;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  font-size: 1.378rem;
+  line-height: 39px;
+  border: 0;
+  border-bottom: 2px solid #bdbdbd;
+}
+
+#message {
+  height: 70px;
+  overflow: auto;
+  resize: vertical;
+}
+.parallelogram input{
+  float: right;
+  margin: 10px;
+  width: 60px;
+  height: 40px;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+  border: 2px solid white;
+  background: #001122;
+}
+
+  footer {
+    margin-top: 10px;
+    background: #222222;
+    color: #9d9d9d;
+  }
