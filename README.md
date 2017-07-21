@@ -1,5 +1,4 @@
 # PageAboutMe
-Przykładowe portfolio
 
 
-Projekt przykładowego portfolio, wykonany przy użyciu Bootstapa oraz SCSSA.
+Projekt przykładowego portfolio, wykonany przy użyciu Bootstapa oraz SCSSA. W celu uruchomiania projekty,, należy otworzyć plik index.html.
